@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальные настройки и секреты
+.env.*
+!.env.example
+
+# Временные файлы Excel
+~$*.xlsx
+~$*.xls
